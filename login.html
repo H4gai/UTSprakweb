@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body class="bg-info">
+
+<div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-4 mb-5 mb-lg-0 bg-light">
+
+        <p>&larr; <a href="index.html">Home</a>
+
+        <h4>Masuk ke IMAKEWEBSITE</h4>
+        <p>Belum punya akun? <a href="regis.php">Daftar di sini</a></p>
+
+        <form action="login.php" method="POST">
+
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input class="form-control" type="text" name="username" placeholder="Username atau email" />
+            </div>
+
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" name="password" placeholder="Password" />
+            </div>
+
+            <input type="submit" class="btn btn-success btn-block mb-3" name="login" value="Masuk" />
+
+            <div class="small text-muted text-center m-2">2022 - Hagai Brayen Setiawan - IMAKEWEBSITE</div>
+
+        </form>
+            
+        </div>
+
+    </div>
+</div>
+    
+</body>
+</html>
